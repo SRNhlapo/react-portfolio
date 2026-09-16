@@ -7,11 +7,11 @@ import Projects from './pages/Projects'
 function App() {
   return (
     <BrowserRouter>
-    <nav className="flex gap-4 p-4 bg-gray-900 text-white">
-      <Link to="/">Home</Link>
-      <Link to="/about">About</Link>
-      <Link to="/contacts">Contacts</Link>
-      <Link to="/projects">Projects</Link>
+    <nav className="flex gap-6 px-8 py-4 bg-gray-900 text-white shadow-md sticky top-0">
+      <Link to="/" className="font-bold text-lg hover:text-blue-400">Home</Link>
+      <Link to="/about" className="hover:text-blue-400">About</Link>
+      <Link to="/contacts" className="hover:text-blue-400">Contacts</Link>
+      <Link to="/projects" className="hover:text-blue-400">Projects</Link>
     </nav>
 
 
